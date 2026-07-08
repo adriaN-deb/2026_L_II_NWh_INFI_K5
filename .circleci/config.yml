@@ -18,7 +18,9 @@ jobs:
 
       - run: make deps
 
-      - run: make lint
+      - run:
+          name: Run linter
+          command: make lint
 
       - run: make test
 
