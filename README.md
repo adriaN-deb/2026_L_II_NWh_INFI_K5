@@ -83,4 +83,13 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum makecache fast
   $ yum install -y docker-ce
   $ systemctl start docker
+
+## Zmiany wykonane w projekcie
+
+- zmiana imienia Natalia na Adrian,
+- poprawa struktury JSON,
+- dodanie Makefile,
+- dodanie Dockerfile,
+- konfiguracja CircleCI,
+- publikacja obrazu Docker do DockerHub.
   ```
