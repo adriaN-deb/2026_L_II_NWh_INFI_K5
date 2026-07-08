@@ -10,6 +10,8 @@ jobs:
 
       image: ubuntu-2004:current
 
+      docker_layer_caching: true
+
 
 
     steps:
@@ -25,6 +27,8 @@ jobs:
       - run: make test
 
       - run: make docker_build
+
+      - run: make docker_push
 
 
 
